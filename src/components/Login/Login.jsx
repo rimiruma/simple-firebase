@@ -53,7 +53,7 @@ return (
                 <button type='button' onClick={handleSignOut}>Sign out</button> :
                 <>
                     <button onClick={handleGoogleSignIn}>Google login</button>
-                    {/* <button onClick={handleGithubSignIn}>Github Ligin</button> */}
+                    <button onClick={handleGithubSignIn}>Github Ligin</button>
                 </>
         }
         {user && <div>
